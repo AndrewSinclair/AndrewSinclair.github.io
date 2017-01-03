@@ -1,6 +1,11 @@
----------
-#info
----------
+---
+layout: post
+title:  "Hello World"
+date:   2017-01-02
+categories: jekyll update
+---
 
-Hello Wrold
+Hello World
 ===========
+
+This is a post
