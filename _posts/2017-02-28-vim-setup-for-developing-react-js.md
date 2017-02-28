@@ -4,8 +4,6 @@ date:   2017-02-28
 categories: Vim React JavaScript Syntastic ESLint
 ---
 
-# Vim Setup for Developing React JS
-
 I am loving [React](https://facebook.github.io/react/) and I want you to give it a try too.
 
 There was an initial hurdle I had to overcome before I could proficiently work with - and not against - React. There was the not-so-small detail of setting up Vim, my code editor of choice. I explored many paths and followed advice from a few different sources, but unfortunately there were a few duds. It's understandable considering the JavaScript landscape can change so frequently these days.
