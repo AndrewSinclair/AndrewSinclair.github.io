@@ -45,8 +45,8 @@ This Vim command effectively installs the features you've recently downloaded vi
 Note: The following projects are deprecated so you DO NOT want to use them. I kept finding articles and repos referencing these which were a major source of confusion
 in this step.
 
-    1. [JSXHint](https://github.com/strml/jsxhint)
-    2. [syntastic-react](https://github.com/jaxbot/syntastic-react)
+    1. JSXHint - https://github.com/strml/jsxhint
+    2. syntastic-react - https://github.com/jaxbot/syntastic-react
 
 
 The linter is what let's Syntastic identify compiler issues and highlights additional potential concerns the compiler might not identify. Syntastic doesn't know the
