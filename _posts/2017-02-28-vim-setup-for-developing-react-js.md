@@ -8,7 +8,9 @@ categories: Vim React JavaScript Syntastic ESLint
 
 I am loving [React](https://facebook.github.io/react/) and I want you to give it a try too.
 
-There was an initial hurdle I had to overcome before I could proficiently work with and not against React. There was the not so small detail of setting up Vim, my code editor of choice. I explored many paths and followed advice from a few different sources, but unfortunately there were a few duds. It's understandable considering the JavaScript landscape can change so frequently these days. Good news! I will tell you the successful path I've found for getting React setup in Vim along with linting via the Syntastic plugin combined with ESLint and JSX syntax highlighting via the vim-jsx plugin. Let's begin.
+There was an initial hurdle I had to overcome before I could proficiently work with and not against React. There was the not-so-small detail of setting up Vim, my code editor of choice. I explored many paths and followed advice from a few different sources, but unfortunately there were a few duds. It's understandable considering the JavaScript landscape can change so frequently these days.
+
+Good news! I will tell you the successful path I've found for getting React setup in Vim along with linting via the Syntastic plugin combined with ESLint and JSX syntax highlighting via the vim-jsx plugin. Let's begin.
 
 
 ## Step 1 - Install Syntastic
@@ -19,9 +21,9 @@ supported for syntax, they are also supported for checking compile time errors a
 Installing it is easy if you have [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/VundleVim/Vundle.vim) already setup. For your reference, the complete instructions to install with Pathogen are
 [here](https://github.com/vim-syntastic/syntastic#222-step-2-install-syntastic-as-a-pathogen-bundle),  but the steps are really quite simple to follow along below.
 
-<aside class="notice">
+
 If you don't have Pathogen or Vundle, I'll recommend you to use Pathogen. Please note that Pathogen and Vundle are very different tools and it's completely normal and useful to have both. For installing plugins however, either one is capable of assisting you throughout this guide.
-</aside>
+
 
 First, `cd` into your bundle path, like so.
 
@@ -40,13 +42,12 @@ This Vim command effectively installs the features you've recently downloaded vi
 
 ## Step 2 - Install ESLint
 
-<aside class="notice">
 Note: The following projects are deprecated so you DO NOT want to use them. I kept finding articles and repos referencing these which were a major source of confusion
 in this step.
 
     1. [JSXHint](https://github.com/strml/jsxhint)
     2. [syntastic-react](https://github.com/jaxbot/syntastic-react)
-</aside>
+
 
 The linter is what let's Syntastic identify compiler issues and highlights additional potential concerns the compiler might not identify. Syntastic doesn't know the
 latest EcmaScript features by default, let alone React's JSX syntax that enables the inline XML syntactic sugar. That's why we have to install two libraries
@@ -66,7 +67,7 @@ Now, globally install `eslint-plugin-react`.
 
     $ sudo npm -g install eslint-plugin-react
 
-Note: on Mac this gave me a `Peer Dependency Unmet` error message. In my experiences, this is a fatal error that shouldn't be ignored. However, apparently it's a "false" warning this time and the recommendation is to ignore it. I don't like it either.
+Note: on macOS this gives me a `Peer Dependency Unmet` error message. In my experiences, this is a fatal error that shouldn't be ignored. However, apparently it's a "false" warning this time and the recommendation is to ignore it. I don't like it either.
 
 
 Next, you have to configure the linter manually, by setting up a `.eslintrc` file. Don't worry, I have one all ready for you to use. These rules were
@@ -101,7 +102,7 @@ Optionally, you can also globally install `babel-eslint` if you are using edge f
 
 
 There is one more step that you need to do. Vim, or specifically Syntastic, won't know to use the npm ESLint package yet. In order to set that up, it's
-one easy line that goes into anywhere into your `~/.vimrc` file.
+one easy line that goes anywhere into your `~/.vimrc` file.
 
     let g:syntastic_javascript_checkers = ['eslint']
 
