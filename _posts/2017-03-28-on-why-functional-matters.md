@@ -7,8 +7,8 @@ categories: Functional Haskell Clojure Elixir F#
 ## The Paper I Love
 
 I recently presented a talk at the [Papers We Love](http://paperswelove.org/) - [Winnipeg Chapter](http://pwlwpg.ca/) meetup. The paper which was the subject of my presentation (and the subject of my affections) was [_Why Functional Programming Matters_](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf), by John Hughes.
-If that name sounds familiar, hopefully you are not thinking about the [prolific film writer and director](http://www.imdb.com/name/nm0000455/) from the 80's and 90's. The latter is well known for such cult classics as "Ferris Bueller's Day Off"
-and "The Breakfast Club". The former is well known for his functional programming street cred.
+If that name sounds familiar, hopefully you are not thinking about the [prolific film writer and director](http://www.imdb.com/name/nm0000455/) from the 80's and 90's. The former is well known for such cult classics as "Ferris Bueller's Day Off"
+and "The Breakfast Club". The latter is well known for his functional programming street cred.
 
 [Professor John Hughes](http://www.cse.chalmers.se/~rjmh/), whose writing I love, is the progenitor and developer of such well known hits as _Haskell_ and [QuickCheck](http://www.cse.chalmers.se/~rjmh/QuickCheck/). His paper, also written in the 80's, emphasizes that modularity is the major
 source of power that puts functional programming ahead of its procedural counterparts, most notably Object Oriented Programming languages. The modularity is exmplarized through use of two new "Functional Glues" that Hughes
