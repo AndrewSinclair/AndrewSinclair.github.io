@@ -17,7 +17,8 @@ defines as Higher-order functions and Lazy-evaluation.
 
 ## Excellent Programming Languages
 
-[One of the slides](https://andrewsinclair.github.io/PWL-WhyFP/#/41) I presented, gave a terse sampling of the functional programming languages I consider worth your while as a modern day developer. I listed four languages, requiring to limit my selection for brevity.
+[One of the slides](https://andrewsinclair.github.io/PWL-WhyFP/#/41) I presented, gave a terse sampling of the functional programming languages I consider worth your while as a modern day developer. I listed four languages, requiring to limit my selection for brevity:
+
    1. [_Haskell_](https://www.haskell.org/)
    2. [_Clojure_](https://clojure.org/)
    3. [_Elixir_](http://elixir-lang.org/)
@@ -43,6 +44,7 @@ What it boils down to is the following argument.
 
 
 Namely, the student learning a particular language can enjoy the following benefits:
+
     1. understanding the core principles of the paradigm
     2. knowing where the core ideas come from
 
@@ -56,6 +58,7 @@ It bears noting that, in my books, _Elixir_ and _Clojure_ are nearly tied in thi
 ## A Different Point Of View
 
 Next up, let's look at the languages in the reverse order. I am now recommending the languages in decreasing order of. Here are the criteria I'm using to evaluate the relative ordering:
+
     1. Community adoption
     2. Recent growth
 
