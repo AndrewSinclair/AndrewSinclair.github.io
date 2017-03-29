@@ -43,10 +43,12 @@ What it boils down to is the following argument.
 
 
 Namely, the student learning a particular language can enjoy the following benefits:
-    - understanding the core principles of the paradigm
+```
+	- understanding the core principles of the paradigm
     - knowing where the core ideas come from
+```
 
-In this list, Haskell is the defacto grandfather of the other languages. Therefore, if you want to learn the origins of functional programming, that is the place to start. Likewise, learning Haskell is learning the fundamentals of the paradigm because
+In this list, Haskell is the de facto grandfather of the other languages. Therefore, if you want to learn the origins of functional programming, that is the place to start. Likewise, learning Haskell is learning the fundamentals of the paradigm because
 the gap between language and principles is reduced. Finally, Haskell is a *pure* functional language, implying there aren't any non-functional features. Therefore, you won't lose focus by being distracted away from the functional oriented constructs.
 
 The languages going down the list add incremental amounts of non-pure abstractions. We generally refer to these as "pragmatic" features. _F#_ is at the opposite end of the spectrum. It supports the full weight of OOP and FP, and runs on the .NET CLR.
@@ -63,7 +65,7 @@ To be fair, _F#_, _Clojure_, and _Elixir_ all are actively being expanded within
 
 ## Conclusion
 
-I love functional languages and the four I've listed are all excellent. _Haskell_, _Clojure_, _Elixir_, and _F#_ are all excellent languages that are ready for you to learn and use in production (albeit, with different considerations for each). If you want to go far, learn _Haskell_ first. If you want to go fast, learn _F#_ first. My favorite language is _Clojure_! Really, you can't go wrong if you choose one and stick with it.
+I love functional languages and the four I've listed are all excellent. _Haskell_, _Clojure_, _Elixir_, and _F#_ are all excellent languages that are ready for you to learn and use in production (albeit with different considerations for each). If you want to go far, learn _Haskell_ first. If you want to go fast, learn _F#_ first. My favorite language is _Clojure_! Really, you can't go wrong if you choose one and stick with it.
 
 
 
