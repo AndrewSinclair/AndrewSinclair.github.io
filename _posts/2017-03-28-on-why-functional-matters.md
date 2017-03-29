@@ -57,8 +57,10 @@ It bears noting that, in my books, _Elixir_ and _Clojure_ are nearly tied in thi
 ## A Different Point Of View
 
 Next up, let's look at the languages in the reverse order. I am now recommending the languages in decreasing order of. Here are the criteria I'm using to evaluate the relative ordering:
+```
     - Community adoption
     - Recent growth
+```
 
 To be fair, _F#_, _Clojure_, and _Elixir_ all are actively being expanded within their resepective communities. _Haskell_ is a bit older and was established a long time ago but there just aren't that many jobs available locally in the _Haskell_ space. However, when it comes to community adoption, at least in the prairies, _F#_ is the most common choice for functional language. Many local businesses are seeing more and more adoption of _F#_. This is evidenced by the fact that our user groups and developer conferences have had more _F#_ talks in the last year than any functional language talks combined.
 
