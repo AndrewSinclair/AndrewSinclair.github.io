@@ -43,10 +43,9 @@ What it boils down to is the following argument.
 
 
 Namely, the student learning a particular language can enjoy the following benefits:
-```
-	- understanding the core principles of the paradigm
-    - knowing where the core ideas come from
-```
+    1. understanding the core principles of the paradigm
+    2. knowing where the core ideas come from
+
 
 In this list, Haskell is the de facto grandfather of the other languages. Therefore, if you want to learn the origins of functional programming, that is the place to start. Likewise, learning Haskell is learning the fundamentals of the paradigm because
 the gap between language and principles is reduced. Finally, Haskell is a *pure* functional language, implying there aren't any non-functional features. Therefore, you won't lose focus by being distracted away from the functional oriented constructs.
@@ -57,10 +56,9 @@ It bears noting that, in my books, _Elixir_ and _Clojure_ are nearly tied in thi
 ## A Different Point Of View
 
 Next up, let's look at the languages in the reverse order. I am now recommending the languages in decreasing order of. Here are the criteria I'm using to evaluate the relative ordering:
-```
-    - Community adoption
-    - Recent growth
-```
+    1. Community adoption
+    2. Recent growth
+
 
 To be fair, _F#_, _Clojure_, and _Elixir_ all are actively being expanded within their resepective communities. _Haskell_ is a bit older and was established a long time ago but there just aren't that many jobs available locally in the _Haskell_ space. However, when it comes to community adoption, at least in the prairies, _F#_ is the most common choice for functional language. Many local businesses are seeing more and more adoption of _F#_. This is evidenced by the fact that our user groups and developer conferences have had more _F#_ talks in the last year than any functional language talks combined.
 
