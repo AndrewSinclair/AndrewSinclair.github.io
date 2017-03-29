@@ -6,12 +6,13 @@ categories: Vim React JavaScript Syntastic ESLint
 
 I am loving [React](https://facebook.github.io/react/) and I want you to give it a try too.
 
-There was an initial hurdle I had to overcome before I could proficiently work with - and not against - React. There was the not-so-small detail of setting up Vim, my code editor of choice. I explored many paths and followed advice from a few different sources, but unfortunately there were a few duds. It's understandable considering the JavaScript landscape can change so frequently these days.
+There was an initial hurdle I had to overcome before I could proficiently work with -- and not against -- React. There was the not-so-small detail of setting up Vim, my code editor of choice. I explored many paths and followed advice from a few different sources, but unfortunately there were a few duds. It's understandable considering the JavaScript landscape can change so frequently these days.
 
 I have good news for you! I'll tell you the successful path I've found for getting React setup in Vim. We will setup two main features:
 
-    - linting via the Syntastic plugin, leveraging ESLint
-	- and JSX syntax highlighting via the vim-jsx plugin.
+    - Linting via the Syntastic plugin, leveraging ESLint
+    - JSX syntax highlighting via the vim-jsx plugin.
+
 
 Let's begin.
 
@@ -47,9 +48,9 @@ This Vim command effectively installs the features you've recently downloaded vi
 
 Note: The following projects are deprecated so you DO NOT want to use them. I kept finding articles and repos referencing these which were a major source of confusion
 in this step.
-    -- DO NOT INSTALL --
-    1. JSXHint - https://github.com/strml/jsxhint
-    2. syntastic-react - https://github.com/jaxbot/syntastic-react
+
+    1. -- DO NOT INSTALL -- JSXHint - https://github.com/strml/jsxhint
+    2. -- DO NOT INSTALL -- syntastic-react - https://github.com/jaxbot/syntastic-react
 
 
 The linter is what let's Syntastic identify compiler issues and highlights additional potential concerns the compiler might not identify. Syntastic doesn't know the
