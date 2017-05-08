@@ -1,3 +1,10 @@
+---
+title:  "Wimpy WordPress"
+date:   2017-05-07
+categories: PHP IIS WordPress
+---
+
+
 I have recently been expanding my knowledge. PHP has been popular choice for webpages for many years now. Probably it's one of the oldest and most mature programming tools I've had to use in a while. PHP webpages are well known for the LAMP stack (Linux, Apache, MySQL, and PHP). For my project, however, I am interested in setting up a WIMP stack (Windows, IIS, MySQL, and PHP... Yes it's an unfortunate accronym...)
 
 Sure enough, when LAMP is the status quo, then going against the grain with WIMP can sometimes feel like exploring undocumented territory. In particular I was creating a WordPress Multi-Site setup and found a small number of pitfalls and gotchas that I'd love to share with you now. We'll see the steps for setting up a WordPress in WIMP (on a local dev environment) and we'll pay special attention to the pot holes and speed bumps. Buckle up!
@@ -66,7 +73,7 @@ Submit the form and hopefully you see a page that has a `Run the install` button
 
 Now you should find yourself to the welcome page. This form is self-explanatory. Just create a title, username, password, and put your email. The *Search Engine Visibility* field won't have an effect on a non-production environment, but feel free to set it now with the confident that you can change the value through the CMS at anytime later. Submit the form and you will see the "Success!" page.
 
-Pitfall #4: I probably should have mentioned this earlier, but if you were planning on using an alias other than `localhost` you should do it before the installation process. WordPress will take the domain name and consider that as the only valid domain that can login afterwords. Changing it after the fact can be a bit of a pain. WordPress also doesn't give any kind of error message when you are attempting to login with the wrong alias as the domain. Yes, even if they are resolving to the same IP it won't work. It just redirects you back to the Login screen.
+Pitfall #5: I probably should have mentioned this earlier, but if you were planning on using an alias other than `localhost` you should do it before the installation process. WordPress will take the domain name and consider that as the only valid domain that can login afterwords. Changing it after the fact can be a bit of a pain. WordPress also doesn't give any kind of error message when you are attempting to login with the wrong alias as the domain. Yes, even if they are resolving to the same IP it won't work. It just redirects you back to the Login screen.
 
 Hopefully you are logged in now. This is the CMS, if you haven't seen it before. However, it is not yet the Multi-site CMS. We still have a few more configurations to take care of, but we're almost done.
 
@@ -86,7 +93,7 @@ With that in place, you can refresh the CMS page and there will be a new feature
 
 First, do the first step that it tells you. Copy the PHP lines of code and paste it again into the `wp-config.php` below the last edit you made.
 
-Pitfall #5: The weird part is that the second step is inadequate for general cases. What you should see in step 2 is the contents of a `web.config` file. There unfortunately is a bug in the rewrite rules preventing users from logging in properly, on all environments including localhost, under the WordPress and IIS configuration that I've told you. Never fear, because I have the preferred `web.config` right here for you to use:
+Pitfall #6: The weird part is that the second step is inadequate for general cases. What you should see in step 2 is the contents of a `web.config` file. There unfortunately is a bug in the rewrite rules preventing users from logging in properly, on all environments including localhost, under the WordPress and IIS configuration that I've told you. Never fear, because I have the preferred `web.config` right here for you to use:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
